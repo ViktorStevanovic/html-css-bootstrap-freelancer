@@ -92,3 +92,8 @@ header, footer, .my_about{
   .my_icons{
     width: 100%;
   }
+
+  .my_bottom-footer{
+    background-color: #2C3D50;
+    font-size: 0.7rem;
+  }
