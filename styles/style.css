@@ -8,7 +8,7 @@ nav{
     background-color: #2C3D50;
 }
 
-header, .my_about{
+header, footer, .my_about{
     color: white;
 }
 
@@ -74,3 +74,21 @@ header, .my_about{
 .my_contact form{
     width: 100%;
 }
+
+.my_main-footer{
+    background-color:#39546D ;
+}
+
+.my_circle {
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .my_icons{
+    width: 100%;
+  }
