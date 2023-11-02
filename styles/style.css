@@ -8,11 +8,11 @@ nav{
     background-color: #2C3D50;
 }
 
-header{
+header, .my_about{
     color: white;
 }
 
-.my_jumbo{
+.my_jumbo, .my_about{
     background-color: #1ABC9C;
 }
 
@@ -43,4 +43,34 @@ header{
 .my_portfolio h2 span{
     background:#fff; 
     padding:0 10px; 
+}
+
+.my_about h2{
+    width: 50%; 
+    text-align: center; 
+    border-bottom: 3px solid #fff; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.my_about h2 span{
+    background:#1ABC9C; 
+    padding:0 10px; 
+}
+
+.my_contact h2{
+    width: 70%; 
+    text-align: center; 
+    border-bottom: 3px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+.my_contact h2 span{
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.my_contact form{
+    width: 100%;
 }
